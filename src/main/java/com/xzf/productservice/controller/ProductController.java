@@ -20,7 +20,7 @@ public class ProductController {
      */
     @RequestMapping("list")
     public Object list(){
-		String str = "123";
+        System.out.println("dev");
         return productService.listProduct();
     }
 
