@@ -2,13 +2,13 @@ server:
   port: 8771
 
 
-#Ö¸¶¨×¢²áÖĞĞÄµØÖ·
+#æŒ‡å®šæ³¨å†Œä¸­å¿ƒåœ°å€
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://192.168.233.100:8761/eureka/
 
-#·şÎñµÄÃû³Æ
+#æœåŠ¡çš„åç§°
 spring:
   application:
     name: product-service
